@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.AddApartmentPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  box-shadow: 0px 2px 3px grey;
+  width: 400px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.AddApartmentPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #afd7fb;
+}
+
+.AddApartmentPage label {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.AddApartmentPage input {
+  padding: 10px;
+  display: inline-block;
+  margin: 2px 0 10px;
+}
+
+.AddApartmentPage input[type="number"] {
+  padding: 10px;
+  display: inline-block;
+  margin: 2px 0 10px;
+  text-align: center;
+}
+
